@@ -39,3 +39,20 @@ Mainly, the reciver mission is to reverse each step happend at the transmiter (C
             4) Symbol Demapping.
             5) FEC Decoder.
             
+            
+            
+            
+## Fixed-point implementation:
+           
+This part has the same requirements as part A; however, the design should be done using fixed-point
+representation. An efficient fixed-point design utilizes as minimum hardware resources as possible for each
+processing step while maintaining little to no performance degradation.
+
+
+## Interleaving and scrambling:
+
+In 802.11a, all the coded bits are interleaved to enhance the ability of the convolutional code to correct burst
+errors which might happen due to deep fades on some of the subcarriers. Interleaving improves the packet
+error rate performance of the system. Scrambling is done to make the transmitted data unintelligible; it could
+be as simple as XORing the data with a pseudorandom sequence that is known to both the transmitter and the
+receiver. The received data is then descrambled at the receiver.
