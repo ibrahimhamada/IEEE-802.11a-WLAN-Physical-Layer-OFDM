@@ -6,7 +6,6 @@ In this project, IEEE 802.11a WLAN Physical Layer (OFDM) is implmented. In OFDM,
 
 ![image](https://user-images.githubusercontent.com/58476343/220197596-d39eead1-824b-4cfe-bedb-99eea56a4f0a.png)
 
-==================================
 
 
 ## Transmitter Block Diagram <a name="Transmitter Block Diagram"></a>
